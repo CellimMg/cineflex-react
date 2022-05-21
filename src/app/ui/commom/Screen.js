@@ -1,5 +1,6 @@
 import styledComponents from "styled-components";
 
+
 export default function Screen({ title, children }) {
     return (
         <>
@@ -32,7 +33,7 @@ const Title = styledComponents.div`
     align-items: center;
     justify-content: center;
 
-     span{
+    span{
         color: #293845;
         font-weight: 400;
         font-size: 24px;

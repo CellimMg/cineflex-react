@@ -1,0 +1,4 @@
+.body-scrollable {
+    height: calc(100% - (294px));
+    overflow-y: scroll;
+}

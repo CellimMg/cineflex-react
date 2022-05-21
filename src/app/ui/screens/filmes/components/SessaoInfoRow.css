@@ -1,0 +1,19 @@
+.sessao-info-row {
+    margin: 12px 24px;
+}
+
+.sessao-info-row .weekday {
+    margin-bottom: 22px;
+}
+
+.sessao-info-row .weekday span {
+    font-weight: 400;
+    font-size: 20px;
+    color: #293845;
+
+}
+
+.sessao-info-row .times {
+    display: flex;
+    flex-wrap: wrap;
+}
