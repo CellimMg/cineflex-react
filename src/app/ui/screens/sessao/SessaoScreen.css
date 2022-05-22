@@ -1,0 +1,76 @@
+.assentos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+
+
+.legenda {
+    margin-bottom: 42px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.legenda .legenda-tile {
+    margin: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
+
+
+form {
+    display: flex;
+    flex-flow: column;
+}
+
+.form {
+    padding: 0 20px;
+}
+
+form span {
+    color: #293845;
+    font-size: 18px;
+}
+
+form input {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 327px;
+    height: 51px;
+    background: #FFFFFF;
+    border: 1px solid #D5D5D5;
+    border-radius: 3px;
+}
+
+form input::placeholder {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    color: #AFAFAF;
+    font-size: 18px;
+}
+
+.form form button {
+    margin: 20px auto;
+    border-radius: 3px;
+    height: 43px;
+    padding: 18px 25px;
+    background-color: #E8833A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    border: none;
+    width: fit-content;
+}
+
+.form form button:hover {
+    cursor: pointer;
+}

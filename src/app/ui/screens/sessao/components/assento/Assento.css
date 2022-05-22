@@ -1,0 +1,16 @@
+.assento {
+    margin: 9px 4px;
+    height: 26px;
+    width: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    border: solid 1px #808F9D;
+    background-color: #C3CFD9;
+}
+
+.assento span {
+    color: #000000;
+    size: 11px;
+}

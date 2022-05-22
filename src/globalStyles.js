@@ -51,9 +51,12 @@ table {
         height: 100%;
     }
 
-    *{
-        font-family: 'Roboto', sans-serif;
+	*{
 		box-sizing: border-box;
+	}
+
+    span{
+        font-family: 'Roboto', sans-serif;
     }
 `;
 
